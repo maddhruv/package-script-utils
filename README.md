@@ -1,26 +1,26 @@
-# TS Template
+# package-script-utils
 
-You only need this template to get started.
+[![npm version](https://badge.fury.io/js/package-script-utils.svg)](https://www.npmjs.com/package/package-script-utils)
 
-🦋 Changesets Included
-🧪 Testing Setup
-🤖 CI Checks Included
-📦 Auto Release and Publish
+Utils to play around with package script - add script, get script, delete script.
 
 ## Getting Started
 
-To get started using this template, simply click on that beautiful green button that says `Use this template`, and then create a new repository 🥑.
+### Install
+
+`npm i package-script-utils`
 
 ## Usage
 
-The template comes with a bunch of npm scripts to do the necessary.
+```js
+import {addScript, deleteScript, getScript} from 'package-script-utils';
 
-| Script | Description |
-| --- | --- |
-| `build` | Builds your typescript source code to commonjs and ESM bundles |
-| `lint` | Checks for any TypeScript issues |
-| `dev` | Runs your tests in watch mode |
-| `test` | Runs your tests using `vitest` |
+const testScript = getScript('test');
+
+addScript('postinstall', 'echo "Postinstall"');
+
+deleteScript('postinstall')
+```
 
 ## Credits
 
