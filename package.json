@@ -1,7 +1,7 @@
 {
-  "name": "ts-template",
+  "name": "package-script-utils",
   "version": "0.1.0",
-  "description": "",
+  "description": "Utils to play around with package script - add script, get script, delete script.",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
@@ -14,15 +14,22 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/maddhruv/ts-template.git"
+    "url": "git+https://github.com/maddhruv/package-script-utils.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "node",
+    "package",
+    "scripts",
+    "add script",
+    "get script",
+    "delete script"
+  ],
+  "author": "Dhruv Jain <dhruvjainpenny@gmail.com>",
+  "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/maddhruv/ts-template/issues"
+    "url": "https://github.com/maddhruv/package-script-utils/issues"
   },
-  "homepage": "https://github.com/maddhruv/ts-template#readme",
+  "homepage": "https://github.com/maddhruv/package-script-utils#readme",
   "devDependencies": {
     "@changesets/cli": "^2.26.0",
     "tsup": "^6.6.3",
